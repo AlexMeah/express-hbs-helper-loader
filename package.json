@@ -1,0 +1,39 @@
+{
+  "name": "express-hbs-helper-loader",
+  "version": "0.0.4",
+  "description": "Load handlebars helpers from specified folder and load them into a express-hbs instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexMeah/express-hbs-helper-loader.git"
+  },
+  "keywords": [
+    "express",
+    "express-hbs",
+    "helpers",
+    "loader",
+    "recursive"
+  ],
+  "author": "Alex Meah <hi@alexmeah.com> (http://alexmeah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexMeah/express-hbs-helper-loader/issues"
+  },
+  "homepage": "https://github.com/AlexMeah/express-hbs-helper-loader",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "glob": "^4.0.5"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "express": "^4.8.7",
+    "express-hbs": "^0.7.11",
+    "express4-route-loader": "0.0.4",
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.11.0",
+    "supertest": "^0.13.0"
+  }
+}
