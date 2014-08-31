@@ -29,7 +29,6 @@ module.exports = function (hbs, location) {
         dot: false,
         sync: true // Stop express race condition on start up
     }, function (err, files) {
-        console.log(files);
         if (err) throw err;
 
         files.forEach(function (file) {
