@@ -1,6 +1,6 @@
 {
   "name": "express-hbs-helper-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Load handlebars helpers from specified folder and load them into a express-hbs instance",
   "main": "index.js",
   "scripts": {
